@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 1605px;
+    background: #043873;
+}
+
+header {
+    margin: 16px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: 134px;
+    height: 24px;
+    display: flex;
+    margin: 0;
+}
+
+#header__logo--imagem {
+    width: 25px;
+    height: 20px;
+}
+
+#header__logo--texto {
+    font-weight: 700;
+    font-size: 19.644px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: inline;
+    margin: 0 0 0 7px;
+}
+
+.header__menu-sandwiche {
+    width: 44px;
+    height: 24px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header__menu-sandwiche--linha {
+    height: 2px;
+    width: 44px;
+    background-color: white;
+}
+
+main {}
+
+.main__texto,
+.main__texto--titulo,
+.main__texto--texto,
+.main__botao {
+    color: white;
+    text-align: center;
+}
+
+.main__texto {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 817px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main__texto--titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    border-bottom: 70px;
+}
+
+.main__texto--texto {
+    margin-bottom: 60px;
+}
+
+.main__botao {
+    width: 232px;
+    height: 70px;
+    background: #4F9CF9;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+}
+
+.pagina-1 {
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 522px;
+    margin: 0;
+}
+
+.main__texto--texto2,
+.main__texto--titulo {
+    width: 80%;
+    margin-bottom: 60px;
+}
+
+.titulo-2 {
+    color: black;
+}
+
+.imagem-juntos {
+    width: 60%;
+    max-width: 454px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    height: 14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rodape__elemento {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape__texto {
+    font-weight: 400;
+    font-size: 16px;
+    ;
+}
